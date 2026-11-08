@@ -34,7 +34,7 @@ xxhash = "*"
 # with --no-deps, so it cannot upgrade what it finds. See scripts/build-protobuf.sh.
 protobuf = ">=5.27"
 requests = "*"
-nvidia-ml-py = ">=12"
+nvidia-ml-py = ">=13.615.71"
 psutil = ">=5.9"
 prometheus-client = "*"
 nvidia-cuda-cupti-cu12 = { version = ">=12,<13", optional = true, markers = "sys_platform == 'linux'" }
