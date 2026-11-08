@@ -240,14 +240,14 @@ files = [
 
 [[package]]
 name = "nvidia-ml-py"
-version = "13.610.43"
+version = "13.615.71"
 description = "Python Bindings for the NVIDIA Management Library"
 optional = false
 python-versions = "*"
 groups = ["main"]
 files = [
-    {file = "nvidia_ml_py-13.610.43-py3-none-any.whl", hash = "sha256:f13c72698edef492f985cc225f14faafe68ae065a2e407f45bdf6f4b9b43fde8"},
-    {file = "nvidia_ml_py-13.610.43.tar.gz", hash = "sha256:65437eb73d68d0c62c931ca4d45038472faff03bd0b8729abba4b899f70d60f2"},
+    {file = "nvidia_ml_py-13.615.71-py3-none-any.whl", hash = "sha256:959bf4adf6fe1308e4bd739e722236b0d1ec8392e2cefad33ff70c311380b9b6"},
+    {file = "nvidia_ml_py-13.615.71.tar.gz", hash = "sha256:bebe4e48f51b1dc75028c0815cb7bfa14a31a5bb80be70c9d980c6036953fc3d"},
 ]
 
 [[package]]
@@ -731,4 +731,4 @@ cu13 = ["nvidia-cuda-cupti"]
 [metadata]
 lock-version = "2.1"
 python-versions = ">=3.9,<4"
-content-hash = "27a0c56e1d7bc5590afcfd7199dd281fff2fa6774cfe7dc1a84117107c25bf42"
+content-hash = "c4dc8242f25f6ea51653e20416b7450d2ec0e3457113eb555d47392c188629ac"
