@@ -38,7 +38,7 @@ nvidia-ml-py = ">=12"
 psutil = ">=5.9"
 prometheus-client = "*"
 nvidia-cuda-cupti-cu12 = { version = ">=12,<13", optional = true, markers = "sys_platform == 'linux'" }
-nvidia-cuda-cupti = { version = ">=13,<14", optional = true, markers = "sys_platform == 'linux'" }
+nvidia-cuda-cupti = { version = ">=13.5.25,<14", optional = true, markers = "sys_platform == 'linux'" }
 
 [tool.poetry.extras]
 cu12 = ["nvidia-cuda-cupti-cu12"]
